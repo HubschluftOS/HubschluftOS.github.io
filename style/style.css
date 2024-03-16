@@ -1,4 +1,97 @@
-body{
+body {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #282828;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #32302f;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: #ceba97;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.header a:hover {
+    background-color: #ddc7a1;
+    color: #32302f;
+}
+
+.header a.active {
+    background-color: #ddc7a1;
+    color: #32302f;
+}
+
+.header-right {
+    float: right;
+}
+
+/* index.html */
+
+.description{
+    margin-top: 10px;
+    background-color: #32302f;
+    height: auto;
+    padding: 5px; 
+}
+
+.description p{
+    color: #ceba97;
+    padding: 10px;
+}
+
+/* packages.html */
+
+a{
+    color: #ceba97;
+}
+
+ul#myMenu{
+    list-style-type:decimal;
+    color:#ceba97;
+
+}
+
+.packages {
+    margin-top: 10px;
+    background-color: #32302f;
+    height: auto;
+    padding: 5px; 
+}
+
+.packages p{
+    color: #ceba97;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .header-right {
+        float: none;
+    }
 }
