@@ -83,6 +83,11 @@ ul#myMenu{
     padding: 10px;
 }
 
+.packages a:hover{
+    background-color: #ddc7a1;
+    color: #32302f;
+}
+
 @media screen and (max-width: 500px) {
     .header a {
         float: none;
