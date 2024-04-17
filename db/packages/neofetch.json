@@ -1,0 +1,5 @@
+{
+    "name":"neofetch",
+    "version":"7.1.0",
+    "dependencies": ["bash", "sh", "gcc"]
+}
