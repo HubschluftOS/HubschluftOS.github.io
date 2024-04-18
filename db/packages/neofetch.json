@@ -1,6 +1,7 @@
 {
-    "name":"neofetch",
-    "version":"7.1.0",
-	"maintainer": "dylanaraps",
-	"dependencies": ["bash", "sh"]
+    "name": "neofetch",
+    "version": "7.1.0",
+    "maintainer": "dylanaraps",
+    "dependencies": ["bash", "sh"],
+    "source": "https://github.com/${maintainer}/${name}/releases/tag/${version}"
 }
