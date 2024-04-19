@@ -3,5 +3,5 @@
     "version": "7.1.0",
     "maintainer": "dylanaraps",
     "dependencies": ["bash", "sh"],
-    "source": "https://github.com/${maintainer}/${name}/releases/tag/${version}"
+    "source": "https://github.com/dylanaraps/neofetch/archive/refs/tags/7.1.0.tar.gz"
 }
