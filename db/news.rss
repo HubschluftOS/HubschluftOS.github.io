@@ -1,18 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-
 <channel>
-  <title>hello world test</title>
-  <description>Free web building tutorials</description>
-  <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.duckduckgo.com</link>
-    <description>rss</description>
-  </item>
-  <item>
-    <title>xml</title>
-    <description>sdkljfsldfj</description>
-  </item>
+<webMaster>1. Development has begun! (by rendick 02.05.2024)</webMaster>
 </channel>
-
-</rss> 
+</rss>
