@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./static/style.css" />
+    <title>Packages</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="/" class="logo">Hübschluft</a>
+        <i>SYSTEM</i>
+        <div class="header-right">
+            <a href="https://github.com/hubschluft" target="_blank">Source Code</a>
+        </div>
+    </div>
+    <div class="subheader">
+        <a href="/">News</a>
+        <a class="active" href="/packages">Packages</a>
+		<a href="/wiki">Wiki</a>
+        <a href="/download">Download</a>
+        <a href="/team">Team</a>
+
+    </div>
+
+    <div class="container">
+        <div class="main">
+            <h1 class="h1-text">Packages</h1>
+            <div class="news-section">
+
+                <p class="news-title">Packages</p>
+
+                <table style="width: 100%;">
+                    <tr style="color: black; background-color: aliceblue;">
+                        <th>Name</th>
+                        <th>Version</th>
+						<th>Description</th>
+                        <th>JSON</th>
+                    </tr>
+
+                    {{ range .Packages}}
+                    <tr>
+
+                        <td style="color: #c1c0d4;"><strong> {{ .Name }} </strong> </td>
+                        <td style="color: #c1c0d4;">{{ .Version }}</td>
+						<td style="color: #c1c0d4;">{{ .Description }}</td>
+                        <td style="color: #c1c0d4;"> <a href="../{{ .Json }}">json</a></td>
+                    </tr>
+                    {{ end }}
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+    </style>
+</body>
+
+</html>
